@@ -10,13 +10,11 @@ repositories
 
 dependencies
 {
-
-
+  implementation 'org.apache.commons:commons-csv:1.6'
 }
 
-task application
-{
-mainClassName = 'SimpleTest'
+task application {
+	mainClassName = 'SimpleTest'
 }
 
 run
